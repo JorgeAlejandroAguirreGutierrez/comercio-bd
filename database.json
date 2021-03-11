@@ -1,0 +1,19 @@
+{
+    "defaultEnv": "dev",
+    "dev": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "Prueba12#",
+        "host": "localhost",
+        "database": "comercio",
+        "port": "5432"
+    },
+	"prod": {
+        "driver": "pg",
+        "user": "iomitvvobabcxe",
+        "password": "efb128c6de1848378efdab3a2a2476dc13d093665b58ca9ae9742af6bc01dfb4",
+        "host": "ec2-54-237-143-127.compute-1.amazonaws.com",
+        "database": "db1sku1fb1nnhr",
+        "port": "5432"
+    }
+}
