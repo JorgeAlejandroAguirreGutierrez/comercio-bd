@@ -14,6 +14,9 @@
         "password": "efb128c6de1848378efdab3a2a2476dc13d093665b58ca9ae9742af6bc01dfb4",
         "host": "ec2-54-237-143-127.compute-1.amazonaws.com",
         "database": "db1sku1fb1nnhr",
-        "port": "5432"
+        "port": "5432",
+        "ssl": {
+      		"rejectUnauthorized": false
+    	}
     }
 }
