@@ -6,9 +6,10 @@ CREATE TABLE producto(
    marca       varchar,
    categoria_id	bigint not null,
    subcategoria_id	bigint not null,
-   compra      double precision,
+   subsubcategoria_id	bigint not null,
+   compra      double precision default null,
    precio      double precision not null,
-   descuento   double precision,
+   descuento   double precision default null,
    garantia    varchar,
    disponible  boolean,
    PRIMARY KEY (id)
