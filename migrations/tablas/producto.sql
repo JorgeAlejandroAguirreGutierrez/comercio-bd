@@ -11,6 +11,15 @@ CREATE TABLE producto(
    precio      double precision not null,
    descuento   double precision default null,
    garantia    varchar,
+   tamano		varchar,
+   caracteristica	varchar,
+   talla			varchar,
+   color		varchar,
+   memoria		varchar,
+   procesador	varchar,
+   camara		varchar,
    disponible  boolean,
+   fecha_creacion timestamp,
+   fecha_actualizacion timestamp,
    PRIMARY KEY (id)
 );
